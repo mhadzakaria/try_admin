@@ -5,5 +5,10 @@
   <%= @post.body %>
 </p>
 
+<p>
+	<strong>Image:</strong><br>
+	<%= image_tag(@post.image.url(:thumbnail, secure: true), style: 'background: #000;') %>
+</p>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

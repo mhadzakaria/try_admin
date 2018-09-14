@@ -15,6 +15,11 @@
     <%= form.label :body %>
     <%= form.text_area :body, id: :post_body %>
   </div>
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.hidden_field(:image_cache) %>
+    <%= form.file_field(:image) %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>

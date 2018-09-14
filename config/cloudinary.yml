@@ -1,0 +1,18 @@
+development:
+  cloud_name: drso37ued
+  api_key: 445312665614413
+  api_secret: 8Mf1A9z60Kt8fmcpyAwSttpQgS4
+  enhance_image_tag: true
+  static_image_support: false
+staging:
+  cloud_name: drso37ued
+  api_key: 445312665614413
+  api_secret: 8Mf1A9z60Kt8fmcpyAwSttpQgS4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: drso37ued
+  api_key: 445312665614413
+  api_secret: 8Mf1A9z60Kt8fmcpyAwSttpQgS4
+  enhance_image_tag: true
+  static_image_support: false
